@@ -1,0 +1,215 @@
+/**header**/
+.rightHeaderMiddleColText{
+  font-size: 2.7rem;
+  color: var(--color3);
+}
+.rightHeaderMiddleColText b{
+  color: var(--color2);
+  font-weight: normal;
+}
+.rightHeaderBottomButton{
+  font-size: 2.8rem;
+  background: var(--color2);
+}
+@media (orientation: portrait) {
+  .headerRow {
+      margin-top: 4.5rem;
+      display: flex;
+      flex-wrap: wrap-reverse;
+  }
+}
+@media (orientation: portrait) {
+  .rightHeaderTopImage {
+      width: 67% !important;
+  }
+}
+
+@media (orientation: portrait) {
+  .leftHeaderImage {
+      padding-bottom: 12vh;
+  }
+}
+@media (orientation: portrait) {
+  .rightHeaderTopCol {
+      height: 38%  !important;
+      padding-left: 10vw !important;
+  }
+}
+@media (orientation: portrait) {
+  .rightHeaderMiddleCol {
+      height: 30%;
+  }
+}
+@media (orientation: portrait) {
+  .rightHeaderMiddleColText {
+      font-size: 2rem !important;
+      text-align: justify !important;
+      padding-bottom: 0.3rem;
+  }
+}
+@media (orientation: portrait) {
+  .rightHeaderBottomButton {
+      font-size: 1.5em;
+      padding: 1rem 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: #4A45BD;
+      text-align: center;
+  }
+}
+/**SECONDE LINE**/
+.secondLine{
+  background: #4A45BD !important;
+  margin: 0 !important;
+  text-align: center;
+}
+.secondLineText{
+    color: var(--white);
+    font-size: 4.3rem;
+    text-align: center;
+}
+@media (orientation: portrait) {
+  .secondLine {
+      height: 100px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+}
+@media (orientation: portrait) {
+  .secondLineText {
+      font-size: 2.5rem;
+      color: white;
+      font-style: italic;
+      text-align: center;
+  }
+}
+/* TERCEIRA LINHA*/
+
+
+@media (orientation: portrait) {
+  .thirdLineRow {
+      height: 100% !important;
+      flex-wrap: wrap-reverse !important;
+      margin-top: 2vh !important;
+  }
+}
+
+@media (orientation: portrait) {
+  .thirdLineRow {
+      height: 100% !important;
+      flex-wrap: wrap-reverse !important;
+      margin-top: 2vh !important;
+  }
+}
+
+@media (orientation: portrait) {
+  .thirdLineImage {
+      padding-top: 1px !important;
+      padding-bottom: 1px !important;
+  }
+}
+@media (orientation: portrait) {
+  .thirdLineTitleText {
+      font-size: 3.2rem !important  ;
+      text-align: center;
+  }
+}
+
+@media (orientation: portrait) {
+  .thirdLineText {
+      font-size: 1.7rem !important;
+      color: black;
+      text-align: justify;
+  }
+}
+.thirdLine{
+  background: var(--color1);
+}
+.thirdLineTitleText{
+  font-size: 5.6rem;
+  color: var(--color2);
+}
+.thirdLineText{
+  color: var(--color3);
+  font-size: 2.7rem;
+}
+/* QUARTA LINHA*/
+.fourthLine{
+  background: var(--color2);
+}
+.fourthLineText{
+  color: var(--white)
+}
+.fifthLine{
+  height: 40rem;
+  background-color: var(--color1);
+}
+/* QUINTA LINHA*/
+.fifthLineVideo {
+  width: 90vw;
+  height: 45vw;
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+@media (orientation: portrait) {
+  .fifthLineVideo {
+      width: 90vw;
+      height: 55vw;
+      margin-left: 5vw;
+      margin-top: 4vh;
+  }
+}
+@media (orientation: portrait) {
+  .fifthLine {
+      height: 35rem !important;
+      background-color: #F7F1FF;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+}
+.ColTitleFifthLine{
+  width: 90vw;
+}
+.fifthLineTitleText{
+  font-size: 5.6rem;
+  color: var(--color2);
+}
+@media (orientation: portrait) {
+  .fifthLineTitleText {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+      font-size: 3.2rem !important;
+      text-align: center;
+      color: #4A45BD;
+  }
+}
+@media (orientation: portrait) {
+  .fifthLineText {
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+      font-size: 1.7rem !important;
+      color: black;
+      text-align: justify;
+  }
+}
+.fifthLineText{
+  font-size: 3rem;
+  color: var(--color3)
+}
+.fifthLineButton{
+  width: 45rem !important;
+  height: 7rem !important;
+  font-size: 3.2rem !important;
+  background-color: var(--color2);
+}
+@media (orientation: portrait) {
+  .fifthLineButton {
+      width: 28rem !important;
+      height: 7rem !important;
+      font-size: 1.9rem !important;
+      background-color: #4A45BD;
+  }
+}
